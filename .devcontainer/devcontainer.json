@@ -1,0 +1,12 @@
+{
+	"name": "Node.js",
+	"image": "node:16",
+
+	"extensions": ["ms-azuretools.vscode-docker"],
+
+	"postCreateCommand": "npm install -g @nestjs/cli && npm install -g express react lodash axios moment body-parser passport mongoose socket.io socket.io-client",
+
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash"
+	}
+}
